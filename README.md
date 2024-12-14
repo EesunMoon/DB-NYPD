@@ -5,7 +5,7 @@ This project involves the development of a comprehensive database system to anal
 
 ---
 
-## E/R Diagram - Part3
+## E/R Diagram - final
 ![Project1 - Part3](https://github.com/user-attachments/assets/e4c3b20f-051b-432a-9f9b-ebc9a328bd0d)
 
 ## Key Features
@@ -33,18 +33,50 @@ This project involves the development of a comprehensive database system to anal
 
 ---
 
+## Details
+
+### Project 1: Database Design and Implementation
+
+#### Part 1: Proposal
+- **Description**: Outlines the objectives, scope, and methodology for building the database.
+- **Key Contents**:
+  - Problem statement and data sources.
+  - Initial ER diagram design.
+  - Project goals and expected outcomes.
+
+#### Part 2: Mapping ER Diagram to SQL Schema
+- **Description**: Maps the initial ER diagram into a SQL schema, defining the tables and their relationships in PostgreSQL.
+- **Key Contents**:
+  - SQL scripts for creating tables and relationships.
+  - Definitions of data types and constraints.
+
+#### Part 3: Expanded ER Diagram and Mapping to SQL Schema
+- **Description**: Includes an updated ER diagram with additional entities and relationships, reflected in an enhanced SQL schema.
+- **Key Contents**:
+  - Extended ER diagram for additional requirements.
+  - SQL scripts for the enhanced schema with new constraints and relationships.
+
+---
+
+### Project 2: Advanced Features and Optimizations
+
+#### Adding Assertions
+- **Description**: Implements assertions in PostgreSQL to enforce data integrity and business rules.
+- **Key Contents**:
+  - SQL assertions to validate data across tables.
+  - Examples include enforcing valid date ranges or attribute constraints.
+
+#### Using Array Data Structures
+- **Description**: Enhances the schema by incorporating PostgreSQL array data types for efficient multi-dimensional data storage.
+- **Key Contents**:
+  - Examples of array attributes in tables.
+  - Queries demonstrating manipulation and retrieval of array data.
+
+---
+
 ## Technical Details
 - **Database Management System**: PostgreSQL
 - **Entities and Relationships**: Modeled real-world scenarios with a revised ER diagram incorporating feedback and stakeholder considerations.
 - **Triggers and Constraints**:
   - Ensured database integrity with custom triggers for participation and ISA constraints.
   - Implemented cascading updates and deletions for hierarchical data models.
-
----
-
-## Insights and Contributions
-- **Quantitative Impact**:
-  - Processed over **14M+ raw records** into an actionable database.
-  - Enabled crime pattern analysis through SQL queries with sub-second response times.
-- **Contributions**:
-  - Collaborative project with schema design, data preprocessing, and query optimization responsibilities distributed among team members.
